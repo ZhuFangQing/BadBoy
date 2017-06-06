@@ -1,0 +1,22 @@
+/*business-left*/
+.business-left{border: 1px #E5E5E5 solid;}
+.container{overflow: hidden;}
+.bs-detail-title{height: 122px;text-align: center;border-bottom: 1px #E1E1E1 dashed;
+	margin: 0 40px;}
+.bs-detail-title h1{font-size: 22px;font-weight: normal;margin-top: 40px;}
+.bs-detail-title p{font-size: 12px;color: #999999;margin-top: 25px;}
+.bs-detail-content{font-size: 14px;padding: 0 14px;/*text-indent: 2em;*/letter-spacing: 2px;padding-top: 2px;}
+.bs-detail-content p{margin-top: 1px;line-height: 25px;}
+.article-btn{margin-top: 64px;margin-bottom: 20px;overflow: hidden;padding: 0 14px;font-size: 14px;clear: both;}
+.article-btn a:nth-of-type(1){float: left;}
+.article-btn a:nth-of-type(2){float: right;}
+.article-btn a span{color: #DE2825;}
+/*下方相关新闻*/
+.bs-detail-content-bottom{}
+.related-news{padding-left: 40px;height: 37px;line-height: 37px;font-size: 16px;border-top: 2px #666666 solid;
+	border-bottom: 1px #E0E0E0 solid;}
+.bs-detail-content-bottom ul{overflow: hidden;padding: 24px 0 7px 0;}
+.bs-detail-content-bottom ul li{list-style: square;margin-left: 60px;width: 340px;float: left;margin-bottom: 17px;font-size: 14px;}
+
+/*.bottom{margin-top: 60px;}*/
+	

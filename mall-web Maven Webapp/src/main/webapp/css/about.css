@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about_left {float:left; width:240px; margin-right:40px;}
+.about_left .about_menu {background:#f6f7f9; padding:15px 15px 35px 15px; margin-bottom:20px;}
+.about_left .about_menu .about_title {color:#bb0000; font-size:20px; border-bottom:#8d8d8d 3px solid; padding-bottom:15px; position:relative; margin-bottom:5px;}
+.about_left .about_menu .about_title em {width:60px; border-bottom:#bb0000 3px solid; position:absolute; bottom:-3px; *bottom:0px;}
+.about_left .about_menu ul.about_menu_list li {font-size:14px; border-bottom:#e7e8ea 1px solid; padding:10px 0; background:url(../images/menu_arr.gif) left center no-repeat; padding-left:15px;}
+.about_left .about_menu ul.about_menu_list li.onthis {color:#bb0000; background:url(../images/menu_arr_onthis.gif) left center no-repeat;}
+.about_right {float:left; width:980px;}
+.about_right .about_con_title {height:60px; line-height:50px; font-size:22px; background:url(../images/slash_bar.jpg) left bottom no-repeat; margin-bottom:40px;}
+.about_right .about_text_title {font-size:22px; text-align:center; margin-bottom:45px;}
+.about_right .about_text_title span {width:42px; height:4px; background:#f10215; display:inline-table; margin-top:10px;}
+.about_right .about_text_box p {line-height:30px; font-size:14px; margin-bottom:5px;}
+.about_right ul.about_adv_list {margin:40px 0; height:149px;}
+.about_right ul.about_adv_list li {float:left; border:#f0f0f0 1px solid; width:314px; background:url(../images/zyfw_img.jpg) 30px center no-repeat; height:167px; position:relative; margin-right:16px;}
+.about_right ul.about_adv_list li:nth-child(2) {background:url(../images/cpqq_img.jpg) 30px center no-repeat;}
+.about_right ul.about_adv_list li:last-child {margin-right:0px; background:url(../images/ksgy.jpg) 30px center no-repeat;}
+.about_right ul.about_adv_list li .about_adv_text {position:absolute; margin:20px 20px 0 130px;}
+.about_right ul.about_adv_list li .about_adv_text h1 {font-size:16px; margin-bottom:5px;}
+.about_right ul.about_adv_list li .about_adv_text p {color:#666; line-height:17px;}
+.about_right .our_adv {width:980px; height:590px; background:url(../images/our_adv_bg.jpg) no-repeat; margin-bottom:100px;}
+.about_right .our_adv .our_adv_title {font-size:22px; color:#FFF; text-align:center; padding-top:45px;}
+.about_right .our_adv .our_adv_title span {width:42px; height:4px; background:#fff; display:inline-table; margin-top:10px;}
+.about_right .our_adv ul.our_adv_con {margin-top:60px;}
+.about_right .our_adv ul.our_adv_con li {width:33%; float:left; text-align:center; color:#FFF; position:relative;}
+.about_right .our_adv ul.our_adv_con li h1 {font-size:18px; margin-top:30px; margin-bottom:-5px;}
+.about_right .our_adv ul.our_adv_con li span {width:36px; border-bottom:#FFF 2px solid; display:inline-block;}
+.about_right .our_adv ul.our_adv_con li p {text-align:left; margin-top:20px; width:194px; position:absolute; left:50%; margin-left:-97px;}

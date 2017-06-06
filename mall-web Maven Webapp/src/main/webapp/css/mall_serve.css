@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*
+2级页面服务样式
+*/
+.b-c-bg02{background:url(../images/bg0032.jpg) no-repeat left 0;min-height:1365px;}
+.part07 .part-title{background:#36a1ce;}
+.part08 .part-title{background:#de4130;}
+.part09 .part-title{background:#c7598f;}
+
+ul.part-con2{margin:30px 0 10px 1px;}
+ul.part-con2 li{float:left;width:230px;height:250px;margin-left:9px;padding:1px 20px;}
+ul.part-con2 li h2{text-align:center;height:60px;line-height:60px;color:#fff;font-family:"微软雅黑";font-size:22px;margin:0;}
+ul.part-con2 li .icon-img{width:32px;height:32px;margin:10px auto 8px auto;}
+ul.part-con2 li .txt{height:55px;padding:5.5px 0;font-size:14px;}
+ul.part-con2 li .txt01{margin-top:32px;}
+ul.part-con2 li .txt02{margin-top:2px;}
+ul.part-con2 li .txt03{margin-top:1px;line-height:45px;}
+ul.part-con2 li.one{background:url(../images/bg0033.jpg) no-repeat 0 0;}
+ul.part-con2 li.two{background:url(../images/bg0034.jpg) no-repeat 0 0;}
+
+.part08{background:#f5f5f5;padding:15px 15px 15px 0;}
+.part08 h4{padding-left:15px;font-family:"微软雅黑"}
+ul.skill-list{}
+ul.skill-list li{float:left;width:460px;height:300px;border:solid 1px #dcdcdc;margin-top:10px;margin-left:11px;position:relative;background:#fff;}
+.skill-title{height:40px;line-height:40px;font-family:"微软雅黑";font-size:18px;text-align:center;color:#000;background:#eee;}
+.skill-list-txt{padding:20px 25px 20px 15px;}
+.skill-list-txt p{ text-indent:2em;font-size:14px;}
+.skill-list-txt a{color:#d87a46;text-decoration:underline;}
+.skill-list-icon{position:absolute;right:-1px;top:-1px;width:80px;height:81px;background:url(../images/bg0037.png) no-repeat 0 0;z-index:5;}
+.skill-list-icon img{width:26px;height:26px;margin:12px 0 0 45px}
+a.skill-list-link{display:block;position:absolute;color:#d87a46;text-decoration:underline;z-index:5;left:15px;bottom:20px;font-size:14px;}
+
+.part09 h4{color:#bc025d;font-family:"微软雅黑";padding-left:20px;}
+.part09 h3{color:#bc025d;font-family:"微软雅黑";padding-left:20px;}
+.part-table{margin:20px 0 0 20px;}
+.part-table td div{text-align:left;}
+.part-table tbody  > tr > td{font-size:14px;}
+.part09-txt{margin-left:20px;color:#666;font-size:14px;}

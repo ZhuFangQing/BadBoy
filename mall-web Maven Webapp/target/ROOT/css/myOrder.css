@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mumber_right_content .my_order_title {height:60px; line-height:60px;}
+.mumber_right_content .my_order_title a {margin-right:10px;}
+.mumber_right_content .my_order_title a.active {border-bottom:#e4393c 2px solid; color:#e4393c; font-weight:bold;}
+.order_seach_box {width:225px; height:25px; float:right; line-height:normal; margin-top:20px; position:relative;}
+.order_seach_box .order_seach_text {border:#ccc 1px solid; height:25px; width:170px; display:inline-block; vertical-align:middle;}
+.order_seach_box .order_seach_text input[type="text"] {width:100%; padding:0 10px;}
+.order_seach_box em {display:inline-block; width:55px; height:25px; background:#f5f4f4 url(../images/search_icon_grey.png) center center no-repeat; cursor:pointer; vertical-align:middle; margin-left:-5px; border:#dddddd 1px solid; border-left:none; border-radius:0 3px 3px 0; position:absolute; right:0; top:0;}
+.mumber_right_content .my_order_box {border:#e5e5e5 1px solid; margin-bottom:20px;}
+.mumber_right_content .my_order_box .my_order_box_title {background:#f5f5f5; padding:5px 15px;}
+.mumber_right_content .my_order_box .my_order_box_title p {display:inline; margin-right:30px;}
+.mumber_right_content .my_order_box .my_order_box_title p span {color:#aaaaaa;}
+.mumber_right_content .my_order_box  table.my_order_table tbody tr td {padding:15px; border-right:#e5e5e5 1px solid; border-bottom:#e5e5e5 1px solid; color:#999;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td:first-child {border-bottom:#e5e5e5 1px dotted;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr:last-child td {border-bottom:none;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr:first-child td:last-child {border-right:none;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td.rtecenter {border-bottom:none;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td a {text-decoration:underline;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .order_pro_img {width:62px; height:62px; border:#efefef 1px solid; float:left; margin-right:15px;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .order_pro_info {float:left; width:280px;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .order_pro_info h1 {font-size:12px; font-weight:normal; color:#333;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .order_pro_info p {padding-top:2px;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .order_pro_number {float:left; margin-left:120px; line-height:62px;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .order_total_price p {border-bottom:#e5e5e5 1px solid; margin-bottom:2px;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .order_total_price p span {color:#f10215;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td input[type="button"] {width:86px; height:30px; line-height:30px; background:#f5f5f5; border:#dddddd 1px solid; border-radius:3px; cursor:pointer;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .package_info {padding-bottom:15px; color:#666;}
+.mumber_right_content .my_order_box table.my_order_table tbody tr td .package_info span {display:inline-block; width:50px; height:25px; line-height:25px; background:#ffa07c; color:#FFF; text-align:center; border-radius:5px; margin-right:10px;}
+.mumber_right_content .my_order_box .order_pro_return {padding:15px; padding-bottom:30px; border-top:#e5e5e5 1px solid;}
+.mumber_right_content .my_order_box .order_pro_return em {width:70px; height:25px; line-height:25px; color:#FFF; text-align:center; background:#ff471b; display:inline-block; border-radius:3px; vertical-align:top; margin-right:20px;}
+.mumber_right_content .my_order_box .order_pro_return .order_pro_return_list {display:inline-block; position:relative; padding-left:65px; width:650px;}
+.mumber_right_content .my_order_box .order_pro_return .order_pro_return_list span {position:absolute; left:0;}
+.mumber_right_content .my_order_box .order_pro_return .order_pro_return_list h1 {margin-top:10px; font-size:12px; font-weight:normal;}
+.mumber_right_content .my_order_box .order_pro_return .order_pro_return_list p span {position:static; margin-left:20px;}
+.mumber_right_content .my_order_box .order_pro_return .order_pro_return_list i {color:#f10215; font-style:normal;}
+.mumber_right_content .my_order_box .order_pro_return input[type="submit"] {width:85px; height:30px; text-align:center; color:#FFF; background:#ff471b; line-height:30px; float:right; cursor:pointer; border-radius:3px;}
+
+.mumber_right_content table.mall_sms_table {margin-top:20px;}
+.mumber_right_content table.mall_sms_table thead tr td {background:#f5f5f5; border-bottom:#e0e0e0 1px solid; border-top:#e0e0e0 1px solid; height:30px; line-height:30px;}
+.mumber_right_content table.mall_sms_table thead tr td:first-child,
+.mumber_right_content table.mall_sms_table tbody tr td:first-child{padding-left:10px;}
+.mumber_right_content table.mall_sms_table tbody tr td {border-bottom:#e0e0e0 1px solid; height:35px; line-height:35px;}
+.mumber_right_content table.mall_sms_table tbody tr td img {margin-top:10px;}
+.mumber_right_content table.mall_sms_table tbody tr td span {color:#999;}
+.mumber_right_content table.mall_sms_table tbody tr td em {height:30px; width:15px; background:url(../images/sms_icon.png) no-repeat; display:inline-block;}
+.mumber_right_content table.mall_sms_table tbody tr td em.read {background-position:left -30px;}
+.mumber_right_content .mall_sms_detil_title {height:100px; background:#f8f8fa; border-bottom:#f10215 1px solid; margin-top:20px; padding:15px 20px; line-height:26px; position:relative;}
+.mumber_right_content .mall_sms_detil_title h1 {font-size:16px;}
+.mumber_right_content .mall_sms_detil_title p {font-size:13px; color:#999;}
+.mumber_right_content .mall_sms_detil_title input[type="button"] {float:right; height:25px; padding:0 10px; background:#f5f5f5; border:#dddddd 1px solid; border-radius:3px; cursor:pointer; position:absolute; right:20px; bottom:10px;}
+.mumber_right_content .mall_sms_detil_content {padding:50px 20px; line-height:44px; color:#666;}
+.mumber_right_content .mall_sms_detil_content a {text-decoration:underline; color:#2f87e2;}

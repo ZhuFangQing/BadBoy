@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mumber_right_content .shopping_car_tab {border-bottom:#d4d4d4 2px solid; height:40px;}
+.mumber_right_content .shopping_car_tab span {display:inline-block; border:#d4d4d4 1px solid; border-bottom:none; background:#e3e3e3; color:#666; font-size:14px; padding:0 30px; height:40px; line-height:40px;}
+.mumber_right_content .shopping_car_tab span.active {background:#f10215; color:#FFF; height:40px; border:none; position:relative; top:-1px;}
+.mumber_right_content .aut_main_box {border:#e0e0e0 1px solid; margin-top:10px; float:left; width:100%;}
+.mumber_right_content .aut_main_box .aut_title {height:40px; line-height:40px; background:#f5f5f5; float:left; width:100%; margin-bottom:30px;}
+.mumber_right_content .aut_main_box .aut_title span {padding:0 20px; text-align:center; border-bottom:#f10215 2px solid; height:40px; line-height:40px; display:inline-block; font-size:16px;}
+.mumber_right_content .aut_main_box .aut_cont_box {padding:30px 50px;}
+.mumber_right_content .aut_main_box .aut_cont_box.wi50 {display:inline-block; margin-top:-30px; width:450px; margin-right:50px; vertical-align:top; float:left; *width:350px;}
+.mumber_right_content .aut_main_box .aut_cont_box.wi50 dl {border-bottom:#f3f3f3 1px solid; margin-bottom:0px;}
+.mumber_right_content .aut_main_box .aut_cont_box.wi50 dl dt {text-align:left; width:80px;}
+.mumber_right_content .aut_main_box .aut_cont_box.wi50 dl dd a {margin-left:0px; text-decoration:inherit; color:#ff471b;}
+.mumber_right_content .aut_main_box .aut_cont_box dl {width:100%; float:left; margin-bottom:15px;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dt {float:left; width:110px; text-align:right; font-size:14px; color:#7e878e; font-weight:bold; height:35px; line-height:35px; padding-right:10px; font-weight:bold;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd {float:left; height:35px; line-height:35px; font-size:14px; position:relative;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd.heiAuto {height:auto;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd.heiAuto p {color:#999; line-height:18px; padding:1px 0;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd img {vertical-align:middle; position:absolute; right:-20px; top:15px;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd .input_box {width:370px; height:35px; border:#d4d9df 1px solid; display:inline-block; position:relative; vertical-align:middle;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd.txtarea {height:77px;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd.txtarea .input_box {height:77px; width:550px;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd.txtarea .input_box textarea {height:75px; line-height:35px; padding-left:10px; width:100%;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd .input_box input[type="text"],
+.mumber_right_content .aut_main_box .aut_cont_box dl dd .input_box input[type="password"] {height:33px; line-height:33px; padding-left:10px; width:80%; position:absolute;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd .input_box .text {display:none;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd .input_box em {display:inline-block; position:absolute; width:35px; height:35px; background:url(../images/select_arr.png) center center no-repeat; right:0;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd .input_box em.pass {background:url(../images/password_icon.gif) center center no-repeat;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd .input_box em.pass.show {background:url(../images/password_open_icon.gif) center center no-repeat;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd .input_box select {position:absolute; height:35px; width:100%; top:0; left:0; opacity:0; line-height:35px;}
+.mumber_right_content .aut_main_box .aut_cont_box dl dd a {color:#00a6f0; font-size:13px; text-decoration:underline; margin-left:15px;}
+.mumber_right_content .aut_main_box .aut_cont_box dl.aut_cont_tips {margin:10px 0; margin-bottom:40px;}
+.mumber_right_content .aut_main_box .aut_cont_box dl.aut_cont_tips dd {color:#ff6633; font-size:14px; text-align:center; width: 520px;}
+.mumber_right_content .aut_main_box .aut_cont_box .aut_voucher {display:inline-block; width:33%; text-align:center; margin-bottom:10px; float:left;}
+.mumber_right_content .aut_main_box .aut_cont_box .aut_voucher h1 {color:#7e878e; font-size:14px; margin-top:10px;}
+.mumber_right_content .submit_box {clear:left; padding-top:40px; text-align:center;}
+.mumber_right_content .submit_box input[type="submit"],
+.mumber_right_content .submit_box input[type="button"] {width:200px; height:45px; line-height:45px; color:#FFF; font-size:20px; text-align:center; cursor:pointer; background:#f10215; border-radius:5px; font-weight:bold;}
+.audit_text {font-size:20px; text-align:center; padding:150px 0;}

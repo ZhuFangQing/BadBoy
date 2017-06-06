@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mumber_right_content .manage_title_bar {margin:10px 0 20px 0; height:44px; line-height:44px; background:#f3f3f3; border:#e9e9e9 1px solid; border-top:#e0e0e0 1px solid; padding-left:20px; font-size:14px;}
+.mumber_right_content .manage_title_bar span {margin-right:20px;}
+.mumber_right_content .manage_title_bar strong {color:#ff5a38;}
+.mumber_right_content table.manage_table tr td {text-align:center; border-bottom:#ddd 1px solid; line-height:30px; color:#666;}
+.mumber_right_content table.manage_table tr td img {margin-left:10px;}
+.mumber_right_content table.manage_table tr:first-child td {padding-bottom:5px; font-size:14px; background:none !important;}
+.mumber_right_content table.manage_table tr td * {vertical-align:middle;}
+.mumber_right_content table.manage_table tr td.rteright {padding-right:50px;}
+.mumber_right_content table.manage_table.mx tr td:last-child {padding-right:0px;}
+.mumber_right_content table.manage_table tr td:first-child {background:url(../images/menu_arr.gif) 10px center no-repeat;}
+.mumber_right_content table.manage_table tr td.rteleft {padding-left:30px;}
+.mumber_right_content table.manage_table tr.grey td {background-color:#f7f7f7;}
+.mumber_right_content table.manage_table tr td span {color:#ff5a38;}
+.mumber_right_content table.manage_table tr td span.negative {color:#339933;}
+.mumber_right_content table.manage_table tr td:last-child a {text-decoration:underline;}
+.mumber_right_content table.manage_table tr td a.reason {text-overflow:ellipsis; white-space:nowrap; overflow:hidden; width:320px; display:inline-block; text-decoration:underline;}

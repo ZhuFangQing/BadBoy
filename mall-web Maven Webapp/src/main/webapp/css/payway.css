@@ -1,0 +1,51 @@
+*{box-sizing: border-box;}
+/*pay-content-head*/
+.pay-content-head{position: relative;height: 82px;}
+	.goods-num{font-size: 16px;margin-top: 22px;}
+		.goods-num span{color: #F2333E;margin-left: 10px;}
+	.goods-time{margin-top: 10px;}
+		.goods-time span{color: #F22A2D;font-size: 12px;}
+	.goods-price{position: absolute;right: 0;bottom: 16px;font-size: 16px;}
+		.goods-price span{font-size: 26px;font-weight: bold;color: #FF5739;margin-left: 10px;}
+/*payway-content-middle*/
+.payway-content-middle{border: 1px #EAEAEA solid;border-top: 4px #EAEAEA solid;
+						padding: 0 14px 22px;}
+	.payway-content-middle div{border-bottom: 1px #E6E6E6 solid;padding-top: 20px;padding-bottom: 24px;overflow: hidden;
+								font-size: 14px;}
+								
+		.payway-content-middle-title{font-size: 16px;font-weight: bold;margin-bottom: 24px;}
+		/*账户信息*/
+		.balance,.credit{float: left;font-size: 14px;}
+		.balance{margin-left: 38px;}
+		.credit{margin-left: 40px;}
+			.balance span,.credit span{color: #FF573A;margin-left: 8px;}
+		/*实际付款金额*/
+		.actual{margin-left: 38px;}
+			.actual span{color: #FE5A37;}
+				.actual span b{font-size: 26px;}
+		.cal{margin-left: 38px;font-size: 12px;color: #A3A3A3;margin-top: 8px;}					
+		/*支付方式*/
+	.payway-content .payway-content-middle-b{border: 0;}
+		.pay-way{margin-left: 38px;margin-bottom: 20px;font-size: 14px;overflow: hidden;}
+			.pay-way span{float: left;width: 23px;height: 20px;background: url(../images/checked.jpg) no-repeat;
+							background-position: 0 -40px;margin-right: 12px;}
+			.pay-way span.active{background-position: 0 0;}
+			
+		.payway-content-middle-b ul{overflow: hidden;margin-left: 75px;clear: both;margin-bottom:20px;}
+			.payway-content-middle-b ul li{float: left;margin-right: 28px;}
+				.payway-content-middle-b ul li input{margin-right: 8px;}
+/*确认按钮*/				
+a.sure-btn{display: block;width: 200px;height: 46px;border-radius: 4px;background: #F10215;color: #FFF;
+			margin: 20px auto 85px;text-align: center;line-height: 46px;font-size: 20px;}
+
+/*确认弹出框*/
+.popbox_bg{width: 700px;height: 334px;border: 6px #B7B7B7 solid;margin-left: -350px;border-radius: 10px;
+			padding: 0;background:#FFF url(../images/pay-popbox-bg.jpg) no-repeat;background-position: 154px 87px;}
+	.popbox-title{font-size: 16px;height: 32px;line-height: 32px;background: #F3F3F3;padding-left: 8px;}
+		.popbox-title a{color: #CCCCCC;float: right;margin-right: 10px;}
+	.popbox-content{margin-top: 60px;margin-left: 278px;font-size: 14px;}
+		.popbox-content p{margin-bottom: 6px;}
+		.popbox-content p:nth-of-type(1){font-size: 24px;margin-bottom: 12px;color: #FE6700;}
+	/*返回按钮*/
+	a.return{display: block;width: 138px;height: 36px;border-radius: 4px;text-align: center;line-height: 36px;
+			font-size: 16px;color: #FFF;background: #F10215;position: absolute;bottom: 45px;left: 275px;}	

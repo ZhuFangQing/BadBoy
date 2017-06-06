@@ -1,0 +1,29 @@
+/*member-detail-content*/
+.member-detail-content{margin-top: 20px;border: 1px #EEEEEE solid;overflow: hidden;}
+
+.member-detail-content h2{height: 40px;line-height: 40px;padding-left: 14px;font-size: 16px;font-weight: normal;
+	color: #666666;background: #F7F7F7;border-bottom: 1px #E75D5D solid;margin-bottom: 33px;}
+/*	.member-detail-content p,.member-detail-content .member-detail-logo{float: left;}
+	.member-detail-content p{margin-left: 5%;font-size: 14px;line-height: 30px;text-indent: 2em; width:90%;}
+	.member-detail-content h2+p {width: 696px;margin-right: 42px;margin-bottom: 20px;}*/
+
+.member-detail-img-list{padding-left: 140px;padding-top: 40px;clear: both;margin-bottom: 32px;}
+.member-detail-img-list img{display: inline-block;}
+
+/*contact*/
+.member-detail-contact-left,.member-detail-contact-right{float: left;font-size: 12px;border: 1px #EDEDED solid;border-bottom: 0;margin-bottom: 40px;}
+.member-detail-contact-left{width:200px;text-align: center;background: #F5F5F5;margin-left: 40px;}
+.member-detail-contact-right{width: 726px;}
+.member-detail-contact-left li,.member-detail-contact-right li{height: 38px;line-height: 38px;border-bottom: 1px #EDEDED solid;}
+.member-detail-contact-right li{padding-left: 33px;}
+
+
+.member-detail-product h2{height: 40px;line-height: 40px;padding-left: 14px;font-size: 16px;font-weight: normal;color: #666666;background: #F7F7F7;
+	border: 1px #EEEEEE solid;#border-bottom: 1px #E75D5D solid;margin-top: 20px;}
+
+.hot_box{border-top: 0;}
+.hot_box .hot_product{width: 1000px; *width: 820px;}
+
+.mumber_name {width:1008px; height:119px; background:url(../images/mumber_name_bg.jpg) no-repeat; font-size:36px; color:#FFF; padding:45px 0 0 40px; position:relative;}
+.mumber_name sup {font-size:16px; position:absolute; margin:-15px 0 0 10px;}
+.mumber_name sup img {margin-right:5px;}

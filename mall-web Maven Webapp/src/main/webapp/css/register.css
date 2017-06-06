@@ -1,0 +1,25 @@
+.register-content{height: 770px;background: #F2F2F2;padding-top: 33px;}
+	.register-content .container{height: 668px;padding: 56px 88px 0 88px;
+								background: #FFF url(../images/register-bg.jpg) no-repeat;
+								background-position: 702px 240px;}
+		.register-title{height: 42px;border-bottom: 1px #EBEBEB solid;font-size: 18px;color: #A1A1A1;}
+
+/*register-content-p*/	
+		.register-content-p p{margin-bottom: 23px;font-size: 14px;height: 40px;}
+		.register-content-p p:first-child{margin-top: 100px;}
+			.register-content-p span{float:left;text-align: right;width: 122px;height: 40px;line-height: 40px;margin-right: 15px;}
+				.register-content-p span i{font-style: normal;padding-left: 17px;background: url(../images/must.jpg) left center no-repeat;}
+			
+			.register-content-p input{width: 300px;height: 40px;border: 1px #D5D5D5 solid;float: left;font-size: 14px;float: left;
+										padding-left: 12px;}
+			.num-p b{font-size: 14px;width: 38px;height: 40px;line-height: 38px;border: 1px #D5D5D5 solid;border-right: 0;float: left;text-align: right;
+					font-weight: normal;}
+			.num-p input{border-left: 0;width: 262px;}
+			.register-content-p p:nth-of-type(3) input{width: 170px;}
+			.register-content-p .code-btn{float: left;width: 120px;height: 40px;border: 1px #D5D5D5 solid;color: #F34852;
+											text-align: center;line-height: 40px;margin-left: 10px;}
+			.agree-p{padding-left: 138px;}
+			.agree-p span{margin-left: 8px;}
+				.agree-p span a{color: #F00518;}
+				.register-content .register-btn{display: block;width: 300px;height: 40px;text-align: center;line-height: 40px;
+						background: #F10215;color: #FFF;border-radius: 4px;margin-left: 138px;margin-top: 26px;font-size: 16px;}

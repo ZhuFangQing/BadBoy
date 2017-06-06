@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.school_head .school_menu {float:left; width:230px; border:#ff9c83 1px solid; border-top:none; background:#fff8dc; padding:15px 10px; min-height:450px;margin-top: 10px;}
+.school_head .school_menu ul li {border-bottom:#ede4be 1px solid; padding:5px 0; padding-left:25px; position:relative;}
+.school_head .school_menu ul li img {position:absolute; left:0; top:8px;}
+.school_head .school_menu ul li h1 {font-size:13px; color:#f10215; margin-bottom:5px; position:relative; top:0; *margin-top:-20px;}
+.school_head .school_menu ul li a {color:#666; margin-right:10px;}
+.school_head .school_menu .forum_btn {text-align:center; display:block; padding-top:15px;}
+.school_head .school_banner_box {float:left; padding:10px 0 0 10px; width:803px;}
+.school_head .school_banner_box .swiper-active-switch {background:#f10215;}
+.school_head .school_banner_box .new_class_list {border:#eaeaea 1px solid; border-top:none; height:173px;}
+.school_head .school_banner_box .new_class_list .new_class_title {width:34px; border-right:#eaeaea 1px solid; height:172px; font-size:15px; background:#f4f4f2; padding-left:9px; padding-top:35px; line-height:25px; float:left; *width:24px; *height:137px;}
+.school_head .school_banner_box .new_class_list .new_class_list_box {padding:30px 45px; display:inline-block; float:left; height:172px; width:757px; position:relative; *width:635px; *height:112px;}
+.school_head .school_banner_box .new_class_list .new_class_list_box .new_class {width:160px; text-align:center; font-size:13px;}
+.school_head .school_banner_box .new_class_list .new_class_list_box .new_class img {margin-bottom:10px;}
+.school_head .school_banner_box .new_class_list .new_class_list_box #sb_prev {background:url(../images/prev_icon.png) no-repeat; width:18px; height:50px; left:10px; margin-top:-25px;}
+.school_head .school_banner_box .new_class_list .new_class_list_box #sb_next {background:url(../images/next_icon.png) no-repeat; width:18px; height:50px; right:10px; margin-top:-25px;}
+.school_head .school_hot {border:#eaeaea 1px solid; border-left:none; float:right; margin-top:10px; width:227px; height:441px; *width:225px; *height:440px;}
+.school_head .school_hot .school_hot_title {color:#f10215; font-size:16px; border-bottom:#dedede 2px solid; position:relative; height:40px;}
+.school_head .school_hot .school_hot_title span {border-bottom:#999 1px solid; height:40px; position:absolute; top:0; line-height:40px; padding:0 30px 0 20px;}
+.school_head .school_hot .school_hot_content {padding:10px;}
+.school_hot_list {border-bottom:#e6e6e6 1px solid; padding:5px; padding-left:20px; background:url(../images/f_arr_icon.gif) left 12px no-repeat; font-weight:bold; color:#999; line-height:25px;}
+.school_hot_list h1 {font-size:13px; color:#333;}
+.school_hot_list .school_hot_link {color:#e6603d; background:#fff8de; border:#f2d6ae 1px solid; width:66px; height:26px; line-height:26px; text-align:center; display:inline-block; margin:5px 0;}
+.school_head .school_hot .school_hot_content .school_hot_more {color:#676767; float:right;}
+.school_class_box {border:#eaeaea 1px solid; border-top:#dedede 2px solid;}
+.school_class_box tr th {border:#eaeaea 1px solid; height:40px; line-height:40px; position:relative; width:505px; text-align:left;}
+.school_class_box tr td {border:#eaeaea 1px solid; border-bottom:none; padding:25px 0 15px 0; border-right:none; border-left:none;}
+.school_class_box tr td.pjp {padding:28px;}
+.school_class_box tr th.last {width:221px; background:#f9f9f9;}
+.school_class_box tr td.last {width:201px; background:#f9f9f9; padding:10px; border-left:#eaeaea 1px solid;}
+.school_class_box tr td.np {padding:0px;}
+.school_class_box tr th span {color:#f10215; font-size:16px; border-top:#f10215 2px solid; display:inline-block; margin-top:-2px; padding:0 20px; position:relative;}
+.school_class_box tr th em {display:inline-block; border-left:#eaeaea 1px solid; color:#676767; line-height:normal; padding-left:20px; font-weight:normal;}
+.school_class_box tr td .class_info_box {border-right:#eaeaea 1px solid;}
+.school_class_box tr td .class_info_box .class_info_title {padding-bottom:20px; border-bottom:#eaeaea 1px solid; margin:0 30px; position:relative;}
+.school_class_box tr td .class_info_box .class_info_title.br {margin-right:0px;}
+.school_class_box tr td .class_info_box .class_info_title.ml {margin-left:0px; padding-left:30px;}
+.school_class_box tr td .class_info_box .class_info_title.br .class_info_title_text {padding-right:20px; border-right:#eaeaea 1px solid;}
+.school_class_box tr td .class_info_box .class_info_title .class_info_title_text {position:absolute; top:0; padding-left:220px; height:125px; *padding-left:20px; *width:250px;}
+.school_class_box tr td .class_info_box .class_info_title .class_info_title_text h1 {font-size:16px;}
+.school_class_box tr td .class_info_box .class_info_title .class_info_title_text p {color:#999999; margin:5px 0;}
+.school_class_box tr td .class_info_box .class_info_title .class_info_title_text a.class_info_link {color:#fff; width:100px; height:30px; line-height:30px; background:#f10215; border-radius:5px; display:inline-block; text-align:center; position:absolute; bottom:0;}
+.school_class_box tr td .class_info_box .class_info_more {padding:10px 0; margin:0 30px; min-height:120px;}
+.school_class_box tr td .class_info_box .class_info_more h1 {font-size:13px; padding-bottom:10px;}
+.school_class_box tr td .class_info_box .class_info_more ul.half {width:50%; float:left;}
+/*.school_class_box tr td .class_info_box .class_info_more ul.half li span {margin-right:20px;}*/
+.school_class_box tr td .class_info_box .class_info_more ul li {list-style:disc; margin:5px 15px; color:#333; position:relative;}
+.school_class_box tr td .class_info_box .class_info_more ul li span {position:absolute; right:0;}
+.brn {border-right:none !important;}
+.school_class_box tr td .school_hot_list.zj {background:url(../images/plus_icon.gif) 20px 15px no-repeat; padding:7px 5px 7px 40px;}
+.school_class_box tr td .school_hot_list.zj:last-child {border-bottom:none;}
+.school_class_box tr td .school_hot_list.zj.open {background:url(../images/jian_icon.gif) 20px 20px no-repeat;}
+.school_class_box tr td .school_hot_list.zj h1 {cursor:pointer;}
+.school_class_box tr td .school_hot_list .school_zj_detil {display:none;}
+.school_class_box tr td ul.hot_class_list li {float:left; margin-left:58px;}
+.school_class_box tr td ul.hot_class_list li:first-child {margin-left:0px;}
+.school_class_box tr td ul.hot_class_list li .hot_class_title {background:#fafafa; border:#eaeaea 1px solid; border-top:none; text-align:center; height:36px; line-height:36px; *width:198px;}
+.school_class_box tr td ul.db_list li {margin:0 10px; width:206px; height:40px; line-height:40px; padding-left:20px; position:relative; *margin:0 0 5px 5px; *width:90%;}
+.school_class_box tr td ul.db_list li a {color:#333;}
+.school_class_box tr td ul.db_list li:last-child {margin-bottom:0px;}
+.school_class_box tr td ul.db_list li em {color:#adaca9; background:#dbdbdb; display:inline-block; position:absolute; left:0; width:15px; text-align:center; line-height:17px; top:11px;}
+.school_class_box tr td ul.db_list li.top_three {color:#000; font-weight:bold;}
+.school_class_box tr td ul.db_list li.top_three em {background:#ed8b73; color:#FFF;}
+.school_class_box tr td .bbs_essence {float:left; position:relative; width:545px; margin-left:75px;}
+.school_class_box tr td .bbs_essence:first-child {margin-left:0px;}
+.school_class_box tr td .bbs_essence_info {position:absolute; padding-left:220px; top:0; *padding-left:20px; *width:325px;}
+.school_class_box tr td .bbs_essence_info h1 {font-size:16px; padding-left:35px; background:url(../images/essence_icon.jpg) 1px center no-repeat; margin-bottom:5px;}
+.school_class_box tr td .bbs_essence_info p {color:#999; line-height:21px; margin-bottom:20px;}
+.school_class_box tr td .bbs_essence_info dl {margin-bottom:5px; float:left; width:100%;}
+.school_class_box tr td .bbs_essence_info dl dt {float:left; font-size:13px;}
+.school_class_box tr td .bbs_essence_info dl dd {float:right; color:#999;}
